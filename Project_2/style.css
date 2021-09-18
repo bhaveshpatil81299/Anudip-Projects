@@ -1,0 +1,220 @@
+/* #fb2056 #17afec */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Nav Section */
+
+header{
+    background: #000;
+    color: #fff;
+}
+
+/* Navigation section */
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 5%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background: transparent;
+    color: #fff;
+}
+
+.navbar-brand{
+    height: 90px;
+}
+
+.nav-link{
+    margin: 5px 10px;
+    color: #fff;
+}
+
+/* Navigation Hover*/
+
+.home-btn, .about-btn, .contact-btn, .privacy-btn{
+    background-image: linear-gradient(#fb2056, #fb2056);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+}
+
+.home-btn:hover, .about-btn:hover, .contact-btn:hover, .privacy-btn:hover{
+    background-size: 100% 5px, auto;
+    color: #fff;
+}
+
+/* Branding Section */
+
+.bigimage{
+    height: 680px;
+    background: linear-gradient(20deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(media/cricket.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.header-title{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.tagline{
+    text-align: center;
+}
+
+.header-hr{
+    margin: 20px 45%;
+    width: 10%;
+    border: 2px solid #fb2056;
+}
+
+.header-footer{
+    text-align: center;
+    padding: 80px;
+    background: #F2F2F2;
+    color: #000;
+}
+
+/* Blog Post */
+
+.blog-post-header{
+    text-align: center;
+    font-size: 4rem;    
+}
+
+.blog-post-hr{
+    margin: 0 45%;
+    width: 10%;
+    border: 2px solid #fb2056;
+}
+
+.blog-post-header2{
+    margin-left: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.card{
+    border: none;
+}
+
+/* Home Video Background */
+
+#videoDiv2 {
+    width:100%; 
+    max-width:1350px; 
+    margin:0; 
+    display:inline-flexbox; 
+    position: relative;
+}
+#video2 {
+    width:100%; 
+    height:auto; 
+}
+#videoMessage2 { 
+    position: absolute; 
+    top: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: left; 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(20deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    color: #fff;
+}
+
+.home-videobackground-content{
+    margin-left: 50%;
+    padding: 10px;
+}
+
+.home-videobackground-content-hr{
+    margin-left: 51%;
+    width: 6%;
+    border: 2px solid #fb2056;
+}
+
+/* Footer Section */
+
+.footer-content{
+    margin: auto;
+    padding: 50px 0;
+    background: #000;
+    color: #17afec;
+    text-align: center;
+}
+
+/* All Pages Images */
+
+.about-img{
+    width: 100%;
+    height: 660px;
+}
+
+/* Social Media Icons*/
+
+.social-mediaicons{
+    text-align: center;
+}
+.about-fa{
+    font-size: 50px;
+    padding: 20px;
+}
+
+/* About Us Page */
+
+.about-content{
+    margin: 50px;
+}
+
+/* Contact Us Page */
+
+.contact-form{
+    margin: 50px auto 30px 10%;
+    width: 50%;
+    
+}
+
+.form-input{
+    width: 60%;
+}
+
+.contact-info{
+    position: absolute;
+    left: 60%;
+    top: 108%;
+}
+
+.submit-btn{
+    background: #fb2049;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.contact-fa{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+/* Post Content */
+
+.post-navbar, .page-navbar{
+    background: linear-gradient(20deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.post-content{
+    padding-top: 10%;
+}
