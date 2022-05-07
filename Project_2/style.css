@@ -111,13 +111,13 @@ header{
 
 #videoDiv2 {
     width:100%; 
-    max-width: 2500px;
+    max-width: 1350px;
     margin:0; 
     display:inline-flexbox; 
     position: relative;
 }
 #video2 {
-    width:2000px;
+    width:100%;
     height:auto; 
 }
 #videoMessage2 { 
@@ -139,7 +139,7 @@ header{
 }
 
 .home-videobackground-content-hr{
-    margin-left: 11%;
+    margin-left: 51%;
     width: 6%;
     border: 2px solid #fb2056;
 }
