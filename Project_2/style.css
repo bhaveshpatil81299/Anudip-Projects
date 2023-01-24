@@ -111,7 +111,6 @@ header{
 
 #videoDiv2 {
     width:100%; 
-    max-width: 1920px;
     margin:0; 
     display:inline-flexbox; 
     position: relative;
